@@ -1,7 +1,27 @@
-### What happened?
-
-### What did you expect?
-
-### Steps to reproduce
-
-### Browser / OS
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: What happened?
+      placeholder: Describe the issue
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What did you expect?
+      placeholder: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Go to...\n2. Click on...\n3. See error"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Browser / OS
+      placeholder: "e.g. Chrome 124 / Windows 11"
+    validations:
+      required: false

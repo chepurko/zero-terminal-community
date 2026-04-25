@@ -1,0 +1,15 @@
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    attributes:
+      label: What problem are you trying to solve?
+      placeholder: Describe the problem
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What would the ideal solution look like?
+      placeholder: Describe your ideal outcome
+    validations:
+      required: false
